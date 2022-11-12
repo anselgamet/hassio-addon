@@ -14,6 +14,7 @@ ENV BUILD_ARCHI = ${BUILD_ARCH}
 ENV LANG C.UTF-8
 ENV DIYHUE_VERSION=master
 ENV WORKING_DIR=/opt/hue-emulator
+ENV FLASK_ENV=development
 
 # Create the needed folders
 RUN mkdir diyhue config ${WORKING_DIR}
